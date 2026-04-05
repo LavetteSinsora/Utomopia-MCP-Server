@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "utomopia": {
+      "command": "npx",
+      "args": ["tsx", "index.ts"],
+      "cwd": "/path/to/utomopia/mcp-server",
+      "env": {
+        "ACTING_USER_ID": "YOUR_USER_UUID",
+        "NEXT_PUBLIC_SUPABASE_URL": "https://mtbhywkjqpwurfbjmdzc.supabase.co",
+        "SUPABASE_SERVICE_ROLE_KEY": "YOUR_SUPABASE_SERVICE_ROLE_KEY"
+      }
+    }
+  }
+}
